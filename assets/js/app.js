@@ -16,6 +16,7 @@ async function displayUser(username) {
 function handleError(err) {
   console.log('OH NO!');
   console.log(err);
+  //marca error en esta parte ---> buscar el porque
   n.textContent = `Algo salió mal: ${err}`
 }
 
